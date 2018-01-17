@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Helvetica;
   text-align: center;
 }
@@ -9,7 +9,11 @@ h1 {
   color: white;
 }
 
-#home nav {
+.BackgroundImg {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+#Home nav {
   font-size: 18px;
 }
 
@@ -35,6 +39,7 @@ p {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  text-align: left;
 }
 
 a {
